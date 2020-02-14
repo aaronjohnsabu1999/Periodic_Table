@@ -16,6 +16,13 @@
   width: 64px;
   height: 64px;
   display: grid;
+  opacity: 0.7;
+}
+
+.cell:hover {
+  opacity: 1;
+  border-style: solid;
+  border-color: #ff0000;
 }
 
 .cell .number {
